@@ -5,7 +5,7 @@ const Navbar = ({ links }) => {
   return (
     <nav className="bg-background shadow">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <div className="text-primary font-bold text-xl">Developer Portfolio</div>
+        <div className="text-primary font-bold text-xl">My Portfolio</div>
         <ul className="flex space-x-6">
           {links.map((link) => (
             <li key={link.name}>
