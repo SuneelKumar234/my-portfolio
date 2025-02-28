@@ -1,58 +1,130 @@
 {
-    "navbar": {
-      "links": [
-        { "name": "Home", "href": "#hero" },
-        { "name": "About", "href": "#about" },
-        { "name": "Experience", "href": "#experience" },
-        { "name": "Projects", "href": "#projects" },
-        { "name": "Contact", "href": "#contact" }
-      ]
-    },
-    "hero": {
-      "title": "Hi, I'm Your Name",
-      "subtitle": "Full-Stack Developer",
-      "cta": "Explore my work"
-    },
-    "about": {
-      "heading": "About Me",
-      "content": "I am a developer with experience in building web applications using modern technologies..."
-    },
-    "experience": {
-      "heading": "Experience",
-      "jobs": [
-        {
-          "company": "Company A",
-          "role": "Software Engineer",
-          "duration": "Jan 2020 - Present",
-          "description": "Developing scalable web applications using React and Next.js."
-        },
-        {
-          "company": "Company B",
-          "role": "Junior Developer",
-          "duration": "Jun 2018 - Dec 2019",
-          "description": "Worked on e-commerce projects and improved site performance."
-        }
-      ]
-    },
-    "projects": {
-      "heading": "Projects",
-      "list": [
-        {
-          "name": "Project One",
-          "description": "A web app built with Next.js and Tailwind CSS.",
-          "link": "https://projectone.example.com"
-        },
-        {
-          "name": "Project Two",
-          "description": "An innovative mobile app built using Flutter.",
-          "link": "https://projecttwo.example.com"
-        }
-      ]
-    },
-    "contact": {
-      "heading": "Contact Me",
-      "email": "your.email@example.com",
-      "phone": "123-456-7890"
-    }
+  "navbar": {
+    "links": [
+      { "name": "Home", "href": "#hero" },
+      { "name": "About", "href": "#about" },
+      { "name": "Experience", "href": "#experience" },
+      { "name": "Projects", "href": "#projects" },
+      { "name": "Contact", "href": "#contact" }
+    ]
+  },
+  "hero": {
+    "title": "Hi, I'm Suneel Kumar",
+    "subtitle": "Data Analytics & Business Intelligence Professional",
+    "cta": "Explore My Work"
+  },
+  "about": {
+    "heading": "About Me",
+    "content": "I am Suneel Kumar from Karachi, Sindh, Pakistan. With a Bachelor's degree in Computer Science from the Institute of Business Administration, I have gained hands-on experience in data analytics, business intelligence, and project management through various internships and roles. I specialize in Statistics, Regression Analysis, and Python programming, and I am passionate about transforming data into actionable insights."
+  },
+  "experience": {
+    "heading": "Experience",
+    "jobs": [
+      {
+        "company": "Daraz",
+        "role": "Management Intern (BI)",
+        "duration": "October 2024 - December 2024",
+        "location": "Karachi, Sindh, Pakistan",
+        "description": "Collaborated on the 11.11 sale project by analyzing operational data to optimize inventory management and streamline logistics. Utilized Excel, Power BI, and SQL to create interactive dashboards and reports, supporting data-driven decision-making."
+      },
+      {
+        "company": "Institute of Business Administration",
+        "role": "Teaching Assistant",
+        "duration": "September 2022 - December 2023",
+        "location": "Karachi, Sindh, Pakistan",
+        "description": "Supported over 150 students in Business Intelligence and Speech Communication courses. Assisted with grading, tutorials, quizzes, and assignments, contributing to academic integrity and effective course management."
+      },
+      {
+        "company": "Acasus - Brave Change",
+        "role": "Monitoring And Evaluation Officer",
+        "duration": "July 2023 - August 2023",
+        "location": "Tharparkar, Sindh, Pakistan",
+        "description": "Conducted on-site data collection to assess resource availability in family planning offices. Implemented digital tools for seamless data collection and real-time insights."
+      },
+      {
+        "company": "AdjenX",
+        "role": "Data Analytics Intern",
+        "duration": "June 2023 - July 2023",
+        "location": "Karachi, Sindh, Pakistan",
+        "description": "Performed detailed data analysis and built predictive models using Excel and Python. Designed and implemented interactive dashboards with Power BI to enable data-driven decisions."
+      },
+      {
+        "company": "The Citizens Foundation",
+        "role": "Virtual Coordinator Head",
+        "duration": "August 2021 - October 2021",
+        "location": "Karachi, Pakistan",
+        "description": "Led the implementation of an LMS portal during the Covid-19 pandemic, doubling student participation. Prepared study and training materials and managed daily activities for program improvement."
+      },
+      {
+        "company": "Sindh Engro Coal Mining Company (SECMC)",
+        "role": "Project Intern",
+        "duration": "July 2021 - August 2021",
+        "location": "Karachi, Pakistan",
+        "description": "Implemented targeted educational initiatives that reduced children's dropout rates by 30% in Tharparkar. Analyzed educational challenges and presented innovative solutions."
+      },
+      {
+        "company": "WWF",
+        "role": "Social Work Intern",
+        "duration": "June 2021 - July 2021",
+        "location": "Islamabad, Pakistan",
+        "description": "Collaborated with a team of Environmental Science students to initiate projects aimed at controlling climate change."
+      }
+    ]
+  },
+  "projects": {
+    "heading": "Projects",
+    "list": [
+      {
+        "name": "11.11 Sale Project Dashboard",
+        "description": "Developed interactive dashboards and reports at Daraz to optimize inventory management and streamline logistics during the high-demand 11.11 sale.",
+        "link": "#"
+      },
+      {
+        "name": "Predictive Data Models",
+        "description": "Built predictive models using Python and Excel at AdjenX, generating actionable insights to support strategic decisions.",
+        "link": "#"
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Contact Me",
+    "email": "sunilrahuwani@gmail.com",
+    "phone": "03310280374"
+  },
+  "education": {
+    "heading": "Education",
+    "details": [
+      {
+        "institution": "Institute of Business Administration",
+        "degree": "Bachelor's degree in Computer Science",
+        "location": "Karachi, Sindh, Pakistan"
+      }
+    ]
+  },
+  "skills": {
+    "heading": "Top Skills",
+    "list": [
+      "Statistics",
+      "Regression Analysis",
+      "Python"
+    ]
+  },
+  "certifications": {
+    "heading": "Certifications",
+    "list": [
+      "Google Business Intelligence",
+      "Introduction to Business Analytics",
+      "Databricks Accredited Generative AI Fundamentals",
+      "Career Essentials in Data Analysis by Microsoft and LinkedIn",
+      "Critical Thinking and Problem Solving"
+    ]
+  },
+  "publications": {
+    "heading": "Publications",
+    "list": [
+      "POLITICS AND ROLE OF YOUTH In PAKISTAN",
+      "زيور جن جا زنجيرون",
+      "Data: The Grain of Today’s Business World"
+    ]
   }
-  
+}
